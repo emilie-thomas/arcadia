@@ -1,0 +1,28 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+// couleur classes Bootstrap :
+$primary: #9DB177; //green-1
+$secondary: #B1C885; //green-2
+$success: #3B5704; //green-3
+$warning: #EE8F00; //yellow-1
+$light: #EDFFCC; //green-white
+$dark: #412D2B; //brown-1
+$danger: #800505;
+// Autres couleurs :
+$white: #E2E2E2; //Soft-white
+$yellow-flash: #FFE712; //yellow-2
+// couleurs des boutons :
+$button-background: #3A1313;
+$button-hover: #833030;
+
+$font-family: Prompt;
+$font-family-deco: Preahvihear;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
