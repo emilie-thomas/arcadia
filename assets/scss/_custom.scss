@@ -18,8 +18,8 @@ $yellow-flash: #FFE712; //yellow-2
 $button-background: #3A1313;
 $button-hover: #833030;
 
-$font-family: Prompt;
-$font-family-deco: Preahvihear;
+$font-family: Prompt, sans-serif, !default;
+$font-family-deco: Preahvihear, serif, !default;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";

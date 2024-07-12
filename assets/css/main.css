@@ -11850,9 +11850,9 @@ body {
 }
 
 .prompt {
-  font-family: Prompt;
+  font-family: Prompt, sans-serif;
 }
 
 .preahvihear {
-  font-family: Preahvihear;
+  font-family: Preahvihear, serif;
 }/*# sourceMappingURL=main.css.map */
