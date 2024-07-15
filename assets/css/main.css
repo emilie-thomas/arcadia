@@ -11855,4 +11855,36 @@ body {
 
 .preahvihear {
   font-family: Preahvihear, serif;
+}
+
+.nav-link {
+  color: #EE8F00;
+  font-size: 1.2rem;
+}
+.nav-link:hover {
+  color: #FFE712;
+}
+
+.dropdown-menu {
+  background-color: #9DB177;
+}
+
+.navbar {
+  position: relative;
+}
+
+.login-icons {
+  position: absolute;
+  right: 2rem;
+}
+.login-icons i {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 991px) {
+  .login-icons {
+    right: 5rem;
+    top: 4rem;
+  }
 }/*# sourceMappingURL=main.css.map */
