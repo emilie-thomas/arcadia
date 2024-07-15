@@ -11857,11 +11857,11 @@ body {
   font-family: Preahvihear, serif;
 }
 
-.nav-link {
+.nav-link:not(.bi) {
   color: #EE8F00;
   font-size: 1.2rem;
 }
-.nav-link:hover {
+.nav-link:not(.bi):hover {
   color: #FFE712;
 }
 
@@ -11880,6 +11880,10 @@ body {
 .login-icons i {
   font-weight: 800;
   font-size: 1.8rem;
+  color: #B1C885;
+}
+.login-icons i:hover {
+  color: #E2E2E2;
 }
 
 @media (max-width: 991px) {
@@ -11887,4 +11891,13 @@ body {
     right: 5rem;
     top: 4rem;
   }
+}
+footer {
+  background-color: #3B5704;
+}
+footer a {
+  color: #B1C885;
+}
+footer a:hover {
+  color: #EDFFCC;
 }/*# sourceMappingURL=main.css.map */

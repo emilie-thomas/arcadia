@@ -14,7 +14,7 @@ body{
 
 // **** HEADER **** //
 
-.nav-link{
+.nav-link:not(.bi){
   color: $warning;
   font-size: 1.2rem;
   &:hover{
@@ -22,7 +22,7 @@ body{
   }
 }
 .dropdown-menu{
- background-color: $primary;
+  background-color: $primary;
 }
 
 .navbar{
@@ -34,6 +34,10 @@ body{
   i{
     font-weight: 800;
     font-size: 1.8rem;
+    color: $secondary;
+    &:hover{
+      color: $white;
+    }
   }
 }
 
@@ -41,5 +45,17 @@ body{
   .login-icons{
     right: 5rem;
     top: 4rem;
+  }
+}
+
+// **** FOOTER **** //
+
+footer{
+  background-color: $success;
+  a{
+    color: $secondary;
+    &:hover{
+      color: $light;
+    }
   }
 }
