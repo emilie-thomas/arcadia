@@ -1,14 +1,7 @@
 @import 'custom';
 
 body{
-  background-color: rgb(80, 80, 79);
-  color: azure;
-}
-.prompt{
   font-family: $font-family;
-}
-.preahvihear{
-  font-family: $font-family-deco;
 }
 
 
@@ -34,9 +27,9 @@ body{
   i{
     font-weight: 800;
     font-size: 1.8rem;
-    color: $secondary;
+    color: $white;
     &:hover{
-      color: $white;
+      color: $yellow-flash;
     }
   }
 }
@@ -58,4 +51,50 @@ footer{
       color: $light;
     }
   }
+}
+
+
+
+// **** PAGE HOME **** //
+
+// CAROUSEL
+
+.carousel {
+  h1, h2{
+    color: $white;
+  }
+  h1{
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+}
+/*
+@media (min-width: 992px) {
+  .carrousel-img{
+    max-height: 800px;
+  }
+}
+*/
+.carousel-item{
+  max-height: 70vh;
+}
+.carrousel-img{
+  height: fit-content;
+  object-fit: contain;
+  max-height: 100%;
+}
+
+
+
+.bulle{
+  position: relative;
+}
+.bulle-texte{
+  width: 300px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
