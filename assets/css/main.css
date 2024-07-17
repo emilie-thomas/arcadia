@@ -11936,7 +11936,7 @@ footer a:hover {
 
 .info-mascotte {
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .mascotte-img {
@@ -11959,7 +11959,8 @@ footer a:hover {
 
 @media (max-width: 520px) {
   .bulle-img {
-    max-width: 350px;
+    max-width: 400px;
+    height: 220px;
   }
   .bulle-texte {
     max-width: 250px;
