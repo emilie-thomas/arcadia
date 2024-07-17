@@ -11846,6 +11846,20 @@ textarea.form-control-lg {
 }
 body {
   font-family: Prompt, sans-serif;
+  font-size: 1.1rem;
+}
+
+.flow {
+  max-width: 1000px;
+}
+
+.btn {
+  background-color: #3A1313;
+  color: #EE8F00;
+}
+.btn:hover {
+  background-color: #833030;
+  color: #EE8F00;
 }
 
 .nav-link:not(.bi) {
@@ -11920,14 +11934,47 @@ footer a:hover {
   max-height: 100%;
 }
 
-.bulle {
+.info-mascotte {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.mascotte-img {
+  position: absolute;
+  top: 180px;
+  left: -30px;
+}
+
+.bulle-div {
   position: relative;
 }
 
 .bulle-texte {
-  width: 300px;
+  width: 340px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 520px) {
+  .bulle-img {
+    max-width: 350px;
+  }
+  .bulle-texte {
+    max-width: 250px;
+  }
+}
+.rond:hover .rond-img {
+  width: 210px;
+  height: 210px;
+}
+.rond:hover h3, .rond:hover .h3 {
+  color: #E2E2E2;
+}
+
+.rond-img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
 }/*# sourceMappingURL=main.css.map */
