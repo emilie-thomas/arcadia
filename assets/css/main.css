@@ -11849,13 +11849,18 @@ body {
   font-size: 1.1rem;
 }
 
-.flow {
+.flow-1000 {
   max-width: 1000px;
+}
+
+.flow-800 {
+  max-width: 800px;
 }
 
 .btn {
   background-color: #3A1313;
   color: #EE8F00;
+  font-family: Preahvihear, serif;
 }
 .btn:hover {
   background-color: #833030;
@@ -11907,6 +11912,10 @@ footer a:hover {
   color: #EDFFCC;
 }
 
+.section-title {
+  font-family: Preahvihear, serif;
+}
+
 .carousel h1, .carousel .h1, .carousel h2, .carousel .h2 {
   color: #E2E2E2;
 }
@@ -11937,6 +11946,7 @@ footer a:hover {
 .info-mascotte {
   position: relative;
   margin-bottom: 150px;
+  max-width: 600px;
 }
 
 .mascotte-img {
@@ -11955,6 +11965,10 @@ footer a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #412D2B;
+}
+.bulle-texte p {
+  font-family: Preahvihear, serif;
 }
 
 @media (max-width: 520px) {
@@ -11963,7 +11977,7 @@ footer a:hover {
     height: 220px;
   }
   .bulle-texte {
-    max-width: 250px;
+    max-width: 300px;
   }
 }
 .rond:hover .rond-img {
@@ -11978,4 +11992,29 @@ footer a:hover {
   border-radius: 50%;
   height: 200px;
   width: 200px;
+}
+
+.section-valeurs {
+  position: relative;
+}
+
+/*
+.images-deco{
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  border-radius: 0px 150px 0px 100px;
+  width: 200px;
+  height: 500px;
+  transform: translateY(-50%);
+  border: 2px solid rgb(128, 22, 22);
+}
+*/
+.section-valeurs-deco-1 {
+  position: absolute;
+  top: 50%;
+  border-radius: 0px 150px 0px 100px;
+  height: 500px;
+  transform: translateY(-50%);
+  clip-path: xywh(22% 0 62% 100% round 0 150px 0 100px);
 }/*# sourceMappingURL=main.css.map */
