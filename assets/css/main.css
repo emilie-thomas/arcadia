@@ -12074,4 +12074,10 @@ footer a:hover {
 
 .plan-mini {
   max-height: 546px;
+}
+
+.avis-frame {
+  min-width: 351px;
+  min-height: 400px;
+  border: 1px #3B5704 solid;
 }/*# sourceMappingURL=main.css.map */
