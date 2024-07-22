@@ -12023,8 +12023,7 @@ footer a:hover {
   position: relative;
 }
 
-.image-background {
-  background-image: url(/assets/images/webp\ tinified/zebre-2.webp);
+.background-div {
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -12034,6 +12033,10 @@ footer a:hover {
   height: 100%;
   z-index: -1;
   opacity: 30%;
+}
+
+.home-habitats-background {
+  background-image: url(/assets/images/webp\ tinified/zebre-2.webp);
 }
 
 .bandeau-habitat {
@@ -12059,4 +12062,16 @@ footer a:hover {
 }
 .bandeau-habitat:hover h3, .bandeau-habitat:hover .h3 {
   font-weight: 700;
+}
+
+.home-services {
+  position: relative;
+}
+
+.home-services-background {
+  background-image: url(/assets/images/icones-dessins/png/bulle-habitats.png);
+}
+
+.plan-mini {
+  max-height: 546px;
 }/*# sourceMappingURL=main.css.map */
