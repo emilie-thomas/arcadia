@@ -5,6 +5,7 @@
 body{
   font-family: $font-family;
   font-size: 1.1rem;
+  color: $dark;
 }
 .flow-1000{
   max-width: 1000px;
@@ -133,6 +134,7 @@ footer{
   color: $dark;
   p{
     font-family: $font-family-deco;
+    color: $success;
   }
 }
 
@@ -145,6 +147,19 @@ footer{
     max-width: 300px;
   }
 }
+
+@media (max-width: 400px) {
+  .info-bulle{
+    max-width: 350px;
+  }
+  .bulle-img{
+    max-width: 350px;
+  }
+  .bulle-texte{
+    max-width: 320px;
+  }
+}
+
 
 .rond{
   &:hover{
@@ -161,6 +176,7 @@ footer{
   border-radius: 50%;
   height: 200px;
   width: 200px;
+  object-fit: cover;
 }
 
 
@@ -169,26 +185,21 @@ footer{
 .section-valeurs{
   position: relative;
 }
-/*
-.images-deco{
-  position: absolute;
-  left: 4%;
-  top: 50%;
-  border-radius: 0px 150px 0px 100px;
-  width: 200px;
-  height: 500px;
-  transform: translateY(-50%);
-  border: 2px solid rgb(128, 22, 22);
-}
-*/
+
 .section-valeurs-deco-1{
   position: absolute;
-  //left: 2%;
   top: 50%;
+  right: 0%;
   border-radius: 0px 150px 0px 100px;
   height: 500px;
   transform: translateY(-50%);
   clip-path: xywh(22% 0 62% 100% round 0 150px 0 100px);
+  display: none;
+}
+@media (min-width: 1400px) {
+  .section-valeurs-deco-1{
+    display: block;
+  }
 }
 
 
@@ -210,7 +221,7 @@ footer{
   opacity: 30%;
 }
 .home-habitats-background{
-  background-image: url(/assets/images/webp\ tinified/zebre-2.webp);
+  background-image: url(/assets/images/webp-tinified/zebre-2.webp);
 }
 
 .bandeau-habitat{
