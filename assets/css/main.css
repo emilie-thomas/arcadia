@@ -11980,6 +11980,17 @@ footer a:hover {
     max-width: 300px;
   }
 }
+@media (max-width: 400px) {
+  .info-bulle {
+    max-width: 350px;
+  }
+  .bulle-img {
+    max-width: 350px;
+  }
+  .bulle-texte {
+    max-width: 320px;
+  }
+}
 .rond:hover .rond-img {
   width: 210px;
   height: 210px;
